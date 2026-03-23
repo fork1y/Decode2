@@ -39,12 +39,12 @@ initial begin
     rst = 0; //RTYPE (wb <= 10, mem <= 000, ex <= 1100)
         //RTYPE (wb <= 11, mem <= 010, ex <= 0001)
     //RTYPE (wb <= 00, mem <= 001, ex <= 0001)
-        opcode = RTYPE; #10;
-        opcode = RTYPE; #10;
-        opcode = LW;    #10;
-        opcode = BEQ;   #10;
-        opcode = NOP;   #10;
-        opcode = NOP;   #10;
+        opcode = RTYPE; #2;
+        opcode = RTYPE; #2;
+        opcode = LW;    #2;
+        opcode = BEQ;   #2;
+        opcode = NOP;   #2;
+        opcode = NOP;   #2;
 
   //RTYPE (wb <= 00, mem <= 100, ex <= 0010)
     //RTYPE (wb <= 00, mem <= 000, ex <= 0000)
