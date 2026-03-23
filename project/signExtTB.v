@@ -11,10 +11,10 @@ module signExtTB(
     );
 
     initial begin
-        immediate = 16'h0004; #10;
-        immediate = 16'h7FFF; #10;
-        immediate = 16'h8000; #10;
-        immediate = 16'hFFFF; #10;
+        immediate = 16'h0004; #1;
+        immediate = 16'h7FFF; #1;
+        immediate = 16'h8000; #1;
+        immediate = 16'hFFFF; #1;
         $finish;
     end
 
